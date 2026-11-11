@@ -1,0 +1,9 @@
+## Interface: 16001
+## Title: |cFFD45CFFLootOwner|r
+## Notes: Zeigt Beuterechte im Tooltip; unabhaengig nutzbar, mit MobInfo2 kompatibel.
+## Version: 0.0.12
+## Author: Blackiron
+## OptionalDeps: MobInfo2
+## X-Game-Version: WoW Forever 1.60.1
+
+LootOwner.lua

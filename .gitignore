@@ -1,0 +1,16 @@
+# Locally generated release archives and temporary staging
+/dist/
+/_staging/
+*.bak
+*.tmp
+*.log
+
+# OS / editors
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Python local cache (only if test tooling is used locally)
+__pycache__/
+*.pyc
