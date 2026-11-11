@@ -2,6 +2,8 @@
 
 ## 0.0.12 – Beta Candidate (2026-11-11)
 
+- License: **GPL-3.0-only**; full license text bundled as `LICENSE.txt`.
+
 - First proposed public beta; release preparation only, **not yet published**.
 - Preserves the proven gameplay functionality of the 0.0.12 test version.
 - Works with or without MobInfo2.

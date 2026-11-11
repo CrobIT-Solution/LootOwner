@@ -33,9 +33,12 @@ TESTING
 
 CREDITS AND SCOPE
 Maintainer/author: Blackiron.
+Copyright (C) 2026 CrobIT-Solution for its original contributions.
+License: GNU GPL version 3 only (GPL-3.0-only); see LICENSE.txt.
+Source: https://github.com/CrobIT-Solution/LootOwner
 LootOwner is an independent addon and contains no MobInfo2 source files.
-The only differences from 0.0.12 TEST are release documentation and
-packaging; Lua and TOC are unchanged byte-for-byte.
+Changes from 0.0.12 TEST affect documentation, licensing and TOC license
+metadata only. LootOwner.lua gameplay code is unchanged.
 
 STATUS
 BETA CANDIDATE, not a stable release. Project license must be selected

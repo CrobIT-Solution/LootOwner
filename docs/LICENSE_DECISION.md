@@ -1,42 +1,33 @@
-# LootOwner – Lizenzprüfung (Entscheidung offen)
+# LootOwner – GNU GPL v3 license decision
 
-Stand: 2026-11-11. **Interne Vorbereitung; keine Lizenz erteilt, keine öffentliche Veröffentlichung freigegeben.**
+**Decision (2026-11-11): GNU General Public License Version 3 only**, SPDX identifier `GPL-3.0-only`.
 
-## Geprüfter Stand
+This matches the documented license decision for **CrobIT-Solution/WoW-Market**. The license permits use, modification and redistribution under its conditions, including copyleft obligations. **GPLv3 does not prohibit all commercial use.** Blizzard's separate rules for addons still apply.
 
-- Repository: `CrobIT-Solution/LootOwner` (privat, Branch `main`).
-- Addon-Stand: **0.0.12 Beta Candidate**, Entwickler-/Maintainer-Anzeige: **Blackiron**.
-- `LootOwner.lua` (Git-Blob-SHA: `b9ed00ad1865ae73ec2bd17b806ccd4ce5c95574`) und `LootOwner.toc` (`4edaebacd27bf9529bc8072cacfdcbc1ba1408e4`) werden nicht verändert.
-- Das Addon verwendet eigene Tooltip-Ausgabe, WoW-API-Aufrufe und optionale MobInfo2-Globals (`MI2_TooltipFrame`, `MI2_MouseoverIndex`, `MI2TT_ExtraInfo*`). Die Verbindung zu MobInfo2 ist **optional**; keine MobInfo2-Quellcodedatei liegt im LootOwner-Repository.
-- Im geprüften LootOwner-Quellcode ist kein Drittanbieter-Lizenzheader oder ausdrücklicher Copyright-Hinweis enthalten. Das belegt **nicht automatisch**, dass jede Codezeile frei von Dritt-Rechten ist. Ein vollständiger Ähnlichkeits- oder Herkunftsnachweis wurde nicht erstellt.
-- MobInfo2 ist separat unter MIT veröffentlicht. Die bloße Nutzung seiner Schnittstellen erfordert **nicht automatisch**, dass LootOwner ebenfalls unter MIT lizenziert wird. Sollte doch geschützter MobInfo2-Code übernommen worden sein, müssten die entsprechenden MIT-Lizenz- und Copyright-Hinweise erhalten bleiben.
-- Der angezeigte Entwicklername **Blackiron** ist eine Credit-Angabe. Er ersetzt die Prüfung, wer rechtlich die Befugnis hat, eine Lizenz zu erteilen, nicht.
+## Implementation
 
-## Lizenzoptionen – Entscheidung des Inhabers erforderlich
+- Complete license: [LICENSE](../LICENSE) in the public source repository.
+- Complete license copy in `LICENSE.txt` shipped with the installable addon ZIP.
+- `LootOwner.toc` declares `## X-License: GPL-3.0-only`.
+- Copyright (C) 2026 CrobIT-Solution for its own original contributions.
+- In-game developer/maintainer credit: Blackiron.
+- `LootOwner.lua` is unchanged from the tested 0.0.12 beta candidate.
+- Source repository: https://github.com/CrobIT-Solution/LootOwner
 
-| Option | Wirkung | Trade-off |
-|---|---|---|
-| **MIT** (einfach, permissiv) | Benutzung, Änderungen und Weitergabe einschließlich Forks grundsätzlich möglich, bei Erhalt des Copyright- und Lizenzhinweises | Auch kommerzielle Weiterverwendung grundsätzlich erlaubt |
-| **All Rights Reserved** / eigene Nutzungsbedingungen | Kontrolle über Bearbeitung und Weiterverbreitung bleibt stärker beim Rechteinhaber | Wer den Code weiterverwenden darf, muss ausdrücklich geregelt werden; Community-Beiträge/Forks sind komplizierter |
-| **GPL-3.0** (Copyleft) | Änderungen und Weitergabe sind möglich, weitergegebene abgeleitete Versionen müssen die GPL-Bedingungen erfüllen | Mehr Pflichten für Weiterverbreiter und größere Kompatibilitätsprüfung |
+## Scope
 
-**Vorschlag:** Für ein kleines, kostenloses Community-Addon ist MIT ein einfacher Weg, **wenn** ausdrücklich gewünscht ist, dass andere den Code kopieren, verbessern und weiterverbreiten dürfen. Soll dies nicht gewünscht sein, keine MIT-Lizenz ohne Rücksprache festlegen.
+LootOwner optionally reads MobInfo2 tooltip fields and does not bundle or modify MobInfo2 files. The LootOwner GPL license does not relicense MobInfo2, Blizzard trademarks, game artwork, client code or third-party data.
 
-Wichtig: Eine kostenlose Nutzung des Addons und eine Open-Source-Lizenz sind **verschiedene Fragen**. Auch die CurseForge-Projektlizenz und die GitHub-`LICENSE`-Datei müssen übereinstimmen.
+A review of the current files found no copied MobInfo2 source files or embedded external license headers; this is not a conclusive independent code-provenance audit. Appropriate third-party notices must be retained if any copyrighted material is introduced later.
 
-## Verbindliche Freigabegates
+## CurseForge submission checks
 
-- [x] Getesteten Addon-Code identifiziert; keine MobInfo2-Originaldateien im Repository.
-- [x] Vorhandene Lizenzhinweise im LootOwner-Code durchgesehen.
-- [ ] Rechteinhaber/Quellcodeherkunft einschließlich eventueller Drittbeiträge abschließend bestätigen.
-- [ ] Lizenzmodell ausdrücklich freigeben.
-- [ ] Passende `LICENSE`-Datei und – falls nötig – Copyright-Attribution ergänzen.
-- [ ] README, TOC/Release-Paket und CurseForge-Projektlizenz konsistent halten.
-- [ ] Keine öffentliche Sichtbarkeit / kein CurseForge-Upload vor ausdrücklicher Veröffentlichungsfreigabe.
+- [x] License chosen: GPL-3.0-only.
+- [x] Full license text in the repository.
+- [x] License text in the packaged addon as LICENSE.txt.
+- [x] TOC license metadata.
+- [ ] Verify the exact ZIP contents and SHA256 before uploading.
+- [ ] Supply an original project icon (minimum 400x400px).
+- [ ] Confirm the project fields and beta release type before submission.
 
-Quellen für die Entscheidung:
-- GitHub Lizenzhinweise: https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/licensing-a-repository
-- CurseForge Submission/Licensing: https://support.curseforge.com/support/solutions/articles/9000199552
-- MobInfo2-Lizenz: https://www.curseforge.com/wow/addons/mobinfo2
-
-*Praktische, keine verbindliche Rechtsberatung.*
+Authoritative GPL text: https://www.gnu.org/licenses/gpl-3.0.html

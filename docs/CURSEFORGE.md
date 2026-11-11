@@ -2,7 +2,7 @@
 
 **Stand:** 2026-11-11  
 **Ziel:** erster öffentlicher **Beta**-Kandidat aus **0.0.12**, ohne Änderungen am geprüften Lua-Code.  
-**Wichtig:** Kein CurseForge-Projekt erstellt, keine Datei hochgeladen, kein GitHub-Release, keine Lizenz vergeben.
+**Wichtig:** GitHub is public and GPL-3.0-only is selected; no CurseForge project or file was submitted by this documentation commit.
 
 ## Vorgesehene Projektfelder
 
@@ -15,10 +15,10 @@
 | Class | Addons |
 | Main category | Tooltip |
 | Summary | `Shows who can loot NPC corpses, with optional MobInfo2 support.` |
-| License | **Offen – Auswahl des Rechteinhabers erforderlich** |
+| License | **GNU GPL v3 (`GPL-3.0-only`)** |
 | Main file type | **Beta** |
 | Recommended dependency | MobInfo2 **optional**, niemals als Required Dependency kennzeichnen |
-| Project source | `CrobIT-Solution/LootOwner` ist noch privat; ein öffentlicher Source-Link würde nicht funktionieren |
+| Project source | https://github.com/CrobIT-Solution/LootOwner |
 
 ## English project description (copy-ready)
 
@@ -47,7 +47,7 @@ Targeted and tested for **Forever 1.60.1**. Other WoW variants have not been ver
 - File Type: **Beta** – **not Stable Release**.
 - Supported Game Version: **Forever 1.60.1 only**.
 - Related Projects: MobInfo2 optionally recommended, never required; only if CurseForge permits and the project relationship is useful.
-- Installable ZIP root: exactly `LootOwner/`, containing `LootOwner.lua`, `LootOwner.toc`, `README.txt`, `CHANGELOG.txt`.
+- Installable ZIP root: exactly `LootOwner/`, containing `LootOwner.lua`, `LootOwner.toc`, `README.txt`, `CHANGELOG.txt`, `LICENSE.txt`.
 - **Do not upload** repository source ZIP, `docs/` or `scripts/` as the installable Addon.
 - Create the ZIP locally with `scripts/New-LootOwnerPackage.ps1`; inspect and checksum before any upload.
 
@@ -66,8 +66,8 @@ Targeted and tested for **Forever 1.60.1**. Other WoW variants have not been ver
 - [x] WoW Forever 1.60.1 / Interface 16001 selected as target.
 - [x] Known group-empty-corpse limitation clearly disclosed.
 - [x] MobInfo2 not required by addon.
-- [ ] **License** selected and `LICENSE` checked in; GitHub/CurseForge license entries consistent.
-- [ ] **Source-rights / credits** reviewed.
+- [x] **License** selected: GPL-3.0-only; full text in repository and the addon ZIP.
+- [x] Current source reviewed for embedded MobInfo2 files / license headers; independent provenance audit remains limited.
 - [ ] **Original project icon** prepared, minimum 400 × 400 pixels (CurseForge guidance).
 - [ ] **Project name** availability confirmed on CurseForge.
 - [ ] **Release ZIP** built from a pinned commit and its contents inspected; confirm actual SHA256.

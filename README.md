@@ -44,7 +44,7 @@ See [test status](docs/TESTSTATUS.md) for details.
 
 ## Source and release packaging
 
-The repository root contains `LootOwner.lua` and `LootOwner.toc`. The installable release archive must include a **single `LootOwner/` folder** containing only the four addon files (`LootOwner.lua`, `LootOwner.toc`, `README.txt`, `CHANGELOG.txt`).
+The repository root contains `LootOwner.lua` and `LootOwner.toc`. The installable release archive must include a **single `LootOwner/` folder** containing five addon files (`LootOwner.lua`, `LootOwner.toc`, `README.txt`, `CHANGELOG.txt`, `LICENSE.txt`).
 
 Optional Windows PowerShell 5.1+ helper:
 
@@ -60,7 +60,7 @@ Maintainer / addon author: **Blackiron**. The original MobInfo2 source is **not 
 
 ## License status
 
-**License selection pending.** This repository does not contain a `LICENSE` file and does not imply an open-source license grant. Before making the repository public or submitting to CurseForge, the author should choose and document a suitable license after verifying rights to all included source files. See [license decision](docs/LICENSE_DECISION.md).
+**GNU General Public License version 3 only (`GPL-3.0-only`).** The original LootOwner code is licensed under the [GNU GPL v3](LICENSE), consistent with WoW-Market. Copyright (C) 2026 CrobIT-Solution for its own contributions; developer/maintainer: **Blackiron**. A complete copy ships in the installable addon as `LICENSE.txt`. Blizzard assets, MobInfo2 and third-party game data are not relicensed. See [license scope](docs/LICENSE_DECISION.md).
 
 ---
 
@@ -72,4 +72,4 @@ LootOwner zeigt im Tooltip an, **wem die Beute gehört**: eigene bestätigte Beu
 
 Installiere nur das **Installations-ZIP** (mit einem Ordner `LootOwner/`) nach `_forever_/Interface/AddOns/` und nutze anschließend `/reload`.
 
-**Projektstand:** 0.0.12 Beta Candidate. Öffentliche Veröffentlichung und Lizenzentscheidung sind noch offen.
+**Projektstand:** 0.0.12 Beta Candidate, `GPL-3.0-only`. Das CurseForge-Beta-Paket ist in Vorbereitung.

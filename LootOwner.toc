@@ -3,6 +3,7 @@
 ## Notes: Zeigt Beuterechte im Tooltip; unabhaengig nutzbar, mit MobInfo2 kompatibel.
 ## Version: 0.0.12
 ## Author: Blackiron
+## X-License: GPL-3.0-only
 ## OptionalDeps: MobInfo2
 ## X-Game-Version: WoW Forever 1.60.1
 
