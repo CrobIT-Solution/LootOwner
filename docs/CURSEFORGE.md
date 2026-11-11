@@ -1,7 +1,7 @@
 # LootOwner – CurseForge Beta-Vorbereitung (nicht eingereicht)
 
 **Stand:** 2026-11-11  
-**Ziel:** erster öffentlicher **Beta**-Kandidat aus **0.0.12**, ohne Änderungen am geprüften Lua-Code.  
+**Ziel:** erster öffentlicher **Beta**-Kandidat **0.1.0 Beta r1** (Lua-Code unverändert aus **0.0.12**), ohne Änderungen am geprüften Lua-Code.  
 **Wichtig:** GitHub is public and GPL-3.0-only is selected; no CurseForge project or file was submitted by this documentation commit.
 
 ## Vorgesehene Projektfelder
@@ -42,8 +42,8 @@ Targeted and tested for **Forever 1.60.1**. Other WoW variants have not been ver
 
 ## Proposed file upload fields
 
-- File name: `LootOwner_0.0.12_BETA_CANDIDATE.zip`.
-- Display name: `LootOwner 0.0.12 Beta (WoW Forever)`.
+- File name: `Loot-Owner_b_0.1.0_r1.zip`.
+- Display name: `LootOwner 0.1.0 Beta r1 (WoW Forever)`.
 - File Type: **Beta** – **not Stable Release**.
 - Supported Game Version: **Forever 1.60.1 only**.
 - Related Projects: MobInfo2 optionally recommended, never required; only if CurseForge permits and the project relationship is useful.
@@ -53,7 +53,7 @@ Targeted and tested for **Forever 1.60.1**. Other WoW variants have not been ver
 
 ### English file changelog (copy-ready)
 
-**LootOwner 0.0.12 – First Beta Candidate**
+**LootOwner 0.1.0 – First Beta Candidate (r1)**
 - Standalone loot ownership tooltip for WoW Forever 1.60.1.
 - Displays your confirmed loot in violet and identifiable other owners in red.
 - Optional compatibility with MobInfo2; no group-member installation required.

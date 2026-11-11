@@ -1,6 +1,11 @@
 # Changelog
 
-## 0.0.12 – Beta Candidate (2026-11-11)
+## 0.1.0 – Beta r1 (2026-11-11)
+
+- First public beta candidate, ZIP: `Loot-Owner_b_0.1.0_r1.zip`.
+- Lua gameplay code unchanged from 0.0.12; TOC version updated to 0.1.0.
+
+## 0.0.12 – Internal beta candidate (2026-11-11)
 
 - License: **GPL-3.0-only**; full license text bundled as `LICENSE.txt`.
 

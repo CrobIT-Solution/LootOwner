@@ -1,7 +1,7 @@
 # LootOwner
 
 **Independent loot ownership tooltip addon for World of Warcraft Forever.**  
-Current development status: **0.0.12 Beta Candidate** — not a stable release.
+Current development status: **0.1.0 Beta r1** — not a stable release.
 
 LootOwner adds a compact loot-ownership hint to NPC corpse tooltips. It works **with or without MobInfo2** and does not require other players to install the addon.
 
@@ -38,7 +38,7 @@ Install the **release ZIP**, not GitHub's automatically generated *Source code* 
 - Previous testing: owner-name rendering was observed with MobInfo2 and standalone; behavior can depend on available game tooltip data.
 - Earlier reported local Lua simulation tests: **20/20** passed for 0.0.12; these are not equivalent to live group tests.
 - **Unresolved:** reliable disappearance of the *other player's* ownership hint after another group member finishes looting.
-- This repository import does not change the gameplay code or `.toc` from the 0.0.12 beta candidate.
+- The 0.1.0 Beta r1 package keeps the exact Lua gameplay code from 0.0.12; only metadata, documentation and packaging change.
 
 See [test status](docs/TESTSTATUS.md) for details.
 
@@ -52,7 +52,7 @@ Optional Windows PowerShell 5.1+ helper:
 .\scripts\New-LootOwnerPackage.ps1
 ```
 
-This writes a release candidate ZIP under `dist/`. No GitHub Actions, external tools or paid services are required to package it.
+This writes `Loot-Owner_b_0.1.0_r1.zip` under `dist/`. No GitHub Actions, external tools or paid services are required to package it.
 
 ## Development and contributions
 
@@ -72,4 +72,4 @@ LootOwner zeigt im Tooltip an, **wem die Beute gehört**: eigene bestätigte Beu
 
 Installiere nur das **Installations-ZIP** (mit einem Ordner `LootOwner/`) nach `_forever_/Interface/AddOns/` und nutze anschließend `/reload`.
 
-**Projektstand:** 0.0.12 Beta Candidate, `GPL-3.0-only`. Das CurseForge-Beta-Paket ist in Vorbereitung.
+**Projektstand:** 0.1.0 Beta r1, `GPL-3.0-only`. Das CurseForge-Beta-Paket ist in Vorbereitung.

@@ -1,7 +1,7 @@
 ## Interface: 16001
 ## Title: |cFFD45CFFLootOwner|r
 ## Notes: Zeigt Beuterechte im Tooltip; unabhaengig nutzbar, mit MobInfo2 kompatibel.
-## Version: 0.0.12
+## Version: 0.1.0
 ## Author: Blackiron
 ## X-License: GPL-3.0-only
 ## OptionalDeps: MobInfo2

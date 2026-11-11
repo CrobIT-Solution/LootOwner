@@ -1,4 +1,4 @@
-LootOwner 0.0.12 BETA CANDIDATE - WoW Forever 1.60.1
+LootOwner 0.1.0 BETA r1 - WoW Forever 1.60.1
 ======================================================
 
 WHAT IT DOES
@@ -37,8 +37,8 @@ Copyright (C) 2026 CrobIT-Solution for its original contributions.
 License: GNU GPL version 3 only (GPL-3.0-only); see LICENSE.txt.
 Source: https://github.com/CrobIT-Solution/LootOwner
 LootOwner is an independent addon and contains no MobInfo2 source files.
-Changes from 0.0.12 TEST affect documentation, licensing and TOC license
-metadata only. LootOwner.lua gameplay code is unchanged.
+0.1.0 Beta r1 retains unchanged 0.0.12 Lua gameplay code;
+TOC version and packaging metadata have been updated.
 
 STATUS
 BETA CANDIDATE, not a stable release. Project license must be selected

@@ -1,4 +1,6 @@
-# Test status – LootOwner 0.0.12
+# Test status – LootOwner 0.1.0 Beta r1
+
+The actual Lua gameplay code is unchanged from 0.0.12. The new 0.1.0 ZIP is a release candidate; prior in-game checks are not new 0.1.0 test results.
 
 This records user-observed in-game results and earlier reported simulations. It is **not a claim of full compatibility**.
 

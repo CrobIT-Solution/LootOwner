@@ -1,6 +1,7 @@
-LootOwner 0.0.12 BETA CANDIDATE - WoW Forever 1.60.1
+LootOwner 0.1.0 BETA r1 - WoW Forever 1.60.1
 =====================================================
-- First beta candidate, based on the 0.0.12 test build.
+- First public beta candidate (0.1.0, package revision r1).
+- Lua gameplay code unchanged from the tested 0.0.12 baseline.
 - License: GPL-3.0-only; full LICENSE.txt included.
 - Existing loot-owner recognition and tooltip behavior kept unchanged.
 - Standalone operation; optional MobInfo2 compatibility.
@@ -10,7 +11,7 @@ LootOwner 0.0.12 BETA CANDIDATE - WoW Forever 1.60.1
   foreign owner's label may remain due to missing authoritative state.
 - No attempt to guess loot state or assign chat messages to a corpse.
 - 0.0.12 gameplay check for own loot passed; group-empty edge remains open.
-- Lua gameplay code is unchanged; TOC license metadata added.
+- TOC version updated to 0.1.0. License remains GPL-3.0-only.
 
 Earlier internal diagnostic versions: 0.0.10 / 0.0.11.
 Earlier test baseline: 0.0.9.

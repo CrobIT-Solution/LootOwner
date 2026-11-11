@@ -1,6 +1,6 @@
 # GitHub repository – current setup
 
-The repository **CrobIT-Solution/LootOwner** is available as a **public** repository, with default branch `main`. The initial import is the 0.0.12 Beta Candidate. Maintainer: Blackiron.
+The repository **CrobIT-Solution/LootOwner** is available as a **public** repository, with default branch `main`. The first public beta candidate is 0.1.0 Beta r1, using the unchanged 0.0.12 Lua gameplay code. Maintainer: Blackiron.
 
 - Repository: https://github.com/CrobIT-Solution/LootOwner
 - Addon source: `LootOwner.lua` and `LootOwner.toc` in the repository root
@@ -20,7 +20,7 @@ cd LootOwner
 .\scripts\New-LootOwnerPackage.ps1
 ```
 
-The packaging script writes the addon ZIP under `dist/`. GitHub's automatic Source code ZIP is not the installable WoW addon ZIP.
+The packaging script writes `Loot-Owner_b_0.1.0_r1.zip` under `dist/`. GitHub's automatic Source code ZIP is not the installable WoW addon ZIP.
 
 ## Before a public release
 
