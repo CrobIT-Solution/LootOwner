@@ -1,5 +1,5 @@
 ## Interface: 16001
-## Title: |cFFD45CFFLootOwner|r
+## Title: LootOwner |cFFAAAAAA0.1.0|r
 ## Notes: Zeigt Beuterechte im Tooltip; unabhaengig nutzbar, mit MobInfo2 kompatibel.
 ## Version: 0.1.0
 ## Author: Blackiron
