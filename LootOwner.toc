@@ -1,7 +1,8 @@
 ## Interface: 16001
-## Title: LootOwner |cFFAAAAAA0.1.0|r
-## Notes: Zeigt Beuterechte im Tooltip; unabhaengig nutzbar, mit MobInfo2 kompatibel.
-## Version: 0.1.0
+## Title: LootOwner |cFFAAAAAA0.1.1|r
+## Notes: Displays loot ownership in tooltips; works standalone or with MobInfo2.
+## Notes-deDE: Zeigt Beuterechte im Tooltip; eigenstaendig und mit MobInfo2 nutzbar.
+## Version: 0.1.1
 ## Author: Blackiron
 ## X-License: GPL-3.0-only
 ## OptionalDeps: MobInfo2

@@ -3,7 +3,30 @@
 -- No addon messages: other group members do NOT need this addon.
 -- Important: CanLootUnit checks THIS player's loot access, not another player's identity.
 
-local LABEL = "Beuterecht"
+-- Client language determines displayed tooltip strings; English is fallback.
+-- Only UI text is localized. Keep the original WoW tooltip owner parsing intact.
+local locale = type(GetLocale) == "function" and GetLocale() or "enUS"
+local L
+if locale == "deDE" then
+    L = {
+        LABEL = "Beuterecht",
+        OWN = "Die Beute gehört Dir",
+        OTHER = "Die Beute gehört ",
+        BLOCKED = "Für Dich gesperrt (Besitzer unbekannt)",
+        ALLOWED = "Du darfst plündern",
+        UNKNOWN = "Beutebesitzer unbekannt",
+    }
+else
+    L = {
+        LABEL = "Loot rights",
+        OWN = "The loot belongs to you",
+        OTHER = "The loot belongs to ",
+        BLOCKED = "Loot unavailable (owner unknown)",
+        ALLOWED = "You may loot",
+        UNKNOWN = "Loot owner unknown",
+    }
+end
+local LABEL = L.LABEL
 local UPDATE_INTERVAL = 0.25
 local VIOLET = { 0.831, 0.361, 1.000 }  -- #D45CFF (own loot)
 local RED    = { 1.000, 0.333, 0.333 }  -- #FF5555 (verified other owner)
@@ -252,7 +275,7 @@ local function status(unit)
     local dead = checked(UnitIsDeadOrGhost, unit)
     if dead == false then
         if checked(UnitIsTapDenied, unit) == true then
-            return "Für Dich gesperrt (Besitzer unbekannt)", GREY
+            return L.BLOCKED, GREY
         end
         -- No owner has been verified for a living enemy.
         return nil
@@ -277,24 +300,24 @@ local function status(unit)
     local owner = originalTooltipOwner(unit)
     if owner then
         if isOwnCharacter(owner) then
-            return "Die Beute gehört Dir", VIOLET
+            return L.OWN, VIOLET
         end
-        return "Die Beute gehört " .. owner, RED
+        return L.OTHER .. owner, RED
     end
     if hasLoot == false then return nil end
 
     if hasLoot == true and canLoot == true then
-        return "Die Beute gehört Dir", VIOLET
+        return L.OWN, VIOLET
     end
 
     -- 'No loot' is not proof that someone else owns the corpse.
     if hasLoot == true and canLoot == false then
-        return "Für Dich gesperrt (Besitzer unbekannt)", GREY
+        return L.BLOCKED, GREY
     end
     if checked(UnitHasLootInteraction, unit) == true then
-        return "Du darfst plündern", VIOLET
+        return L.ALLOWED, VIOLET
     end
-    return "Beutebesitzer unbekannt", GREY
+    return L.UNKNOWN, GREY
 end
 
 local function gameTooltipUnit(tooltip)

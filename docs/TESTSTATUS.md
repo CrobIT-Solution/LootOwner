@@ -1,4 +1,8 @@
-# Test status – LootOwner 0.1.0 Beta r1
+# Test status – LootOwner 0.1.1 localization TEST (feature branch)
+
+**2026-11-15:** 13 local Lua simulation scenarios passed: German and English own loot, verified foreign-owner name, gray states, no-loot hiding, enGB and non-DE locale English fallbacks. The tests use a stubbed WoW tooltip API with Lua 5.4, not the real client. Tooltip logic is otherwise unchanged from 0.1.0. **No 0.1.1 in-game test and no CurseForge submission.**
+
+## Historical evidence: LootOwner 0.1.0 Beta r1
 
 The actual Lua gameplay code is unchanged from 0.0.12. The new 0.1.0 ZIP is a release candidate; prior in-game checks are not new 0.1.0 test results.
 

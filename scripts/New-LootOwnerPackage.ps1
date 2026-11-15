@@ -1,4 +1,4 @@
-# Package LootOwner 0.1.0 Beta r1 for WoW Forever.
+# Package LootOwner 0.1.1 localization TEST for WoW Forever.
 # Windows PowerShell 5.1+; no external modules or network use.
 [CmdletBinding()]
 param()
@@ -12,8 +12,8 @@ foreach ($name in $files) {
     }
 }
 $toc = Get-Content -LiteralPath (Join-Path $root 'LootOwner.toc') -Raw
-if ($toc -notmatch '(?m)^## Version:\s*0\.1\.0\s*$') {
-    throw 'Expected version 0.1.0 in LootOwner.toc'
+if ($toc -notmatch '(?m)^## Version:\s*0\.1\.1\s*$') {
+    throw 'Expected version 0.1.1 in LootOwner.toc'
 }
 if ($toc -notmatch '(?m)^## X-License:\s*GPL-3\.0-only\s*$') {
     throw 'Expected GPL-3.0-only in LootOwner.toc'
@@ -28,7 +28,7 @@ if (-not (Test-Path -LiteralPath $dist)) {
 }
 $stage = Join-Path $dist '_staging'
 $addon = Join-Path $stage 'LootOwner'
-$zip = Join-Path $dist 'Loot-Owner_b_0.1.0_r1.zip'
+$zip = Join-Path $dist 'Loot-Owner_b_0.1.1_r1_TEST.zip'
 if (Test-Path -LiteralPath $stage) {
     Remove-Item -LiteralPath $stage -Recurse -Force
 }

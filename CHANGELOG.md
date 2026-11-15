@@ -1,5 +1,14 @@
 # Changelog
 
+## 0.1.1 – Localization test (2026-11-15, unreleased)
+
+- Client-language tooltips: German (`deDE`) and English (`enUS`/`enGB`), English fallback.
+- Tooltip heading and all added status messages are localized; colors are unchanged.
+- Original native/MobInfo2 owner-name parsing and corpse-loot detection stay unchanged.
+- 13 synthetic locale/UI cases passed; **no 0.1.1 in-game acceptance yet**.
+- Existing issue: foreign group corpse owner hint can persist after fully looted.
+- Separate test package: `Loot-Owner_b_0.1.1_r1_TEST.zip`.
+
 ## 0.1.0 – Beta r1 (2026-11-11)
 
 - First public beta candidate, ZIP: `Loot-Owner_b_0.1.0_r1.zip`.

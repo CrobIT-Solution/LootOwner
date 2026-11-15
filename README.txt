@@ -1,10 +1,25 @@
-LootOwner 0.1.0 BETA r1 - WoW Forever 1.60.1
+LootOwner 0.1.1 LANGUAGE TEST - WoW Forever 1.60.1
 ======================================================
+
+LOCALIZATION / SPRACHAUSWAHL
+The addon automatically follows your game client's language:
+- German client (deDE): German tooltip messages.
+- English client (enUS/enGB): English tooltip messages.
+- Other client languages: English fallback.
+
+Das Addon verwendet automatisch die Sprache des WoW-Clients:
+- Deutsch (deDE): deutsche Tooltip-Meldungen.
+- Englisch (enUS/enGB): englische Tooltip-Meldungen.
+- Andere Sprachen: Englisch als Standardsprache.
+
+This is a local TEST candidate, not an approved CurseForge release.
 
 WHAT IT DOES
 LootOwner adds loot ownership information to NPC corpse tooltips:
-- Your own confirmed loot: "Die Beute gehört Dir" in bright violet.
-- Another confirmed owner: "Die Beute gehört <Name>" in red.
+- Your own loot: "The loot belongs to you" (English),
+  "Die Beute gehört Dir" (German), bright violet.
+- Another confirmed owner: "The loot belongs to <Name>" (English),
+  "Die Beute gehört <Name>" (German), red.
 - No additional line on an empty corpse when that state can be established.
 
 The addon works independently of MobInfo2. MobInfo2 is optional.
@@ -37,9 +52,9 @@ Copyright (C) 2026 CrobIT-Solution for its original contributions.
 License: GNU GPL version 3 only (GPL-3.0-only); see LICENSE.txt.
 Source: https://github.com/CrobIT-Solution/LootOwner
 LootOwner is an independent addon and contains no MobInfo2 source files.
-0.1.0 Beta r1 retains unchanged 0.0.12 Lua gameplay code;
-TOC version and packaging metadata have been updated.
+0.1.1 Language Test modifies only displayed UI text, addon version
+metadata and release documentation; loot-owner detection remains unchanged.
 
 STATUS
-BETA CANDIDATE, not a stable release. Project license must be selected
-by the author before public publication on CurseForge.
+LOCAL TEST CANDIDATE, not a stable release. Licensed under GPL-3.0-only.
+Do not upload this file to CurseForge before in-game language acceptance.

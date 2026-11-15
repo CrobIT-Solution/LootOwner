@@ -1,9 +1,15 @@
 # LootOwner
 
 **Independent loot ownership tooltip addon for World of Warcraft Forever.**  
-Current development status: **0.1.0 Beta r1** — not a stable release.
+Current development status on this feature branch: **0.1.1 localization TEST (unreleased)**. The previous 0.1.0 Beta r1 package is unchanged.
 
 LootOwner adds a compact loot-ownership hint to NPC corpse tooltips. It works **with or without MobInfo2** and does not require other players to install the addon.
+
+## Language support (0.1.1 test)
+
+The addon automatically displays German text on a `deDE` client, English on `enUS` / `enGB` clients, and English as a fallback for other client locales. This includes the loot-rights tooltip heading, own/other owner messages and neutral messages. There is no language menu and no player setting. **Localization is only simulated-tested so far; the 0.1.1 version still needs in-game acceptance.**
+
+Deutsch: Das Addon verwendet die Sprache des WoW-Clients für die Tooltip-Meldungen (Deutsch oder Englisch). Die frühere Version 0.1.0 bleibt als eigenständiger Beta-Stand erhalten.
 
 ## Features
 
@@ -52,7 +58,7 @@ Optional Windows PowerShell 5.1+ helper:
 .\scripts\New-LootOwnerPackage.ps1
 ```
 
-This writes `Loot-Owner_b_0.1.0_r1.zip` under `dist/`. No GitHub Actions, external tools or paid services are required to package it.
+On this feature branch, the script prepares `Loot-Owner_b_0.1.1_r1_TEST.zip` under `dist/` for local testing only. No GitHub Actions, external tools or paid services are required to package it.
 
 ## Development and contributions
 
@@ -72,4 +78,4 @@ LootOwner zeigt im Tooltip an, **wem die Beute gehört**: eigene bestätigte Beu
 
 Installiere nur das **Installations-ZIP** (mit einem Ordner `LootOwner/`) nach `_forever_/Interface/AddOns/` und nutze anschließend `/reload`.
 
-**Projektstand:** 0.1.0 Beta r1, `GPL-3.0-only`. Das CurseForge-Beta-Paket ist in Vorbereitung.
+**Projektstand dieses Testbranches:** 0.1.1 Sprachtest, `GPL-3.0-only`. Noch kein bestätigter WoW-Ingame-Test für 0.1.1 und keine Freigabe zur CurseForge-Veröffentlichung dieser Version.

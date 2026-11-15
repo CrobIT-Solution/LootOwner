@@ -1,7 +1,10 @@
-LootOwner 0.1.0 BETA r1 - WoW Forever 1.60.1
+LootOwner 0.1.1 LANGUAGE TEST - WoW Forever 1.60.1
 =====================================================
-- First public beta candidate (0.1.0, package revision r1).
-- Lua gameplay code unchanged from the tested 0.0.12 baseline.
+- Localization update: tooltip texts automatically follow WoW client language.
+- German (deDE), English (enUS/enGB); English fallback.
+- Tooltip owner detection and loot hiding logic preserved.
+- Local test candidate only; not yet released on CurseForge.
+- Loot ownership logic preserved from the tested 0.0.12 baseline.
 - License: GPL-3.0-only; full LICENSE.txt included.
 - Existing loot-owner recognition and tooltip behavior kept unchanged.
 - Standalone operation; optional MobInfo2 compatibility.
@@ -11,7 +14,7 @@ LootOwner 0.1.0 BETA r1 - WoW Forever 1.60.1
   foreign owner's label may remain due to missing authoritative state.
 - No attempt to guess loot state or assign chat messages to a corpse.
 - 0.0.12 gameplay check for own loot passed; group-empty edge remains open.
-- TOC version updated to 0.1.0. License remains GPL-3.0-only.
+- TOC version updated to 0.1.1. License remains GPL-3.0-only.
 
 Earlier internal diagnostic versions: 0.0.10 / 0.0.11.
 Earlier test baseline: 0.0.9.

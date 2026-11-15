@@ -1,4 +1,6 @@
-# LootOwner – CurseForge Beta-Vorbereitung (nicht eingereicht)
+# LootOwner – CurseForge Beta-Vorbereitung
+
+**Important (2026-11-15):** Version 0.1.1 localization is in a separate TEST branch. Do not replace the previous 0.1.0 Beta r1 CurseForge package with this test ZIP before the language change is accepted in-game. The actual current CurseForge file submission status has not been independently verified.
 
 **Stand:** 2026-11-11  
 **Ziel:** erster öffentlicher **Beta**-Kandidat **0.1.0 Beta r1** (Lua-Code unverändert aus **0.0.12**), ohne Änderungen am geprüften Lua-Code.  
